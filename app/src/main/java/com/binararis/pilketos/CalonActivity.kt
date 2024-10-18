@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +24,10 @@ class CalonActivity : AppCompatActivity() {
     lateinit var cvcalon2:CardView
     lateinit var cvcalon3:CardView
     lateinit var cvgolput:CardView
+    lateinit var ivcalon1:ImageView
+    lateinit var ivcalon2:ImageView
+    lateinit var ivcalon3:ImageView
+    lateinit var ivgolput:ImageView
     lateinit var btPilih:Button
     var calondipilih:String=""
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,13 +42,7 @@ class CalonActivity : AppCompatActivity() {
             Toast.makeText(this, "Gagal menginisialisasi Firebase", Toast.LENGTH_SHORT).show()
             // You might want to handle the error gracefully, such as showing an error message or preventing further actions
         }
-
-        cvcalon1=findViewById(R.id.cvCalon1)
-        cvcalon2=findViewById(R.id.cvCalon2)
-        cvcalon3=findViewById(R.id.cvCalon3)
-        cvgolput=findViewById(R.id.cvGolput)
-        btPilih=findViewById(R.id.btSimpan)
-        btPilih.visibility = View.INVISIBLE
+        init()
         warnaAwal()
         cvcalon1.setOnClickListener {
             calondipilih="1"
@@ -88,11 +87,35 @@ class CalonActivity : AppCompatActivity() {
         }
     }
 
+    fun init(){
+        cvcalon1=findViewById(R.id.cvCalon1)
+        cvcalon2=findViewById(R.id.cvCalon2)
+        cvcalon3=findViewById(R.id.cvCalon3)
+        cvgolput=findViewById(R.id.cvGolput)
+        btPilih=findViewById(R.id.btSimpan)
+        btPilih.visibility = View.INVISIBLE
+        ivcalon1=findViewById(R.id.ivCalon1)
+        ivcalon2=findViewById(R.id.ivCalon2)
+        ivcalon3=findViewById(R.id.ivCalon3)
+        ivgolput=findViewById(R.id.ivGolput)
+        //set foto
+        ivcalon1.setImageResource(R.drawable.ic_launcher_foreground)
+        ivcalon1.setBackgroundResource(R.drawable.ic_launcher_background)
+        ivcalon2.setImageResource(R.drawable.ic_launcher_foreground)
+        ivcalon2.setBackgroundResource(R.drawable.ic_launcher_background)
+        ivcalon3.setImageResource(R.drawable.ic_launcher_foreground)
+        ivcalon3.setBackgroundResource(R.drawable.ic_launcher_background)
+        ivgolput.setImageResource(R.drawable.ic_launcher_foreground)
+        ivgolput.setBackgroundResource(R.drawable.ic_launcher_background)
+        //
+    }
+
     fun warnaAwal(){
         cvcalon1.setCardBackgroundColor(Color.parseColor("#ebebeb"))
         cvcalon2.setCardBackgroundColor(Color.parseColor("#ebebeb"))
         cvcalon3.setCardBackgroundColor(Color.parseColor("#ebebeb"))
         cvgolput.setCardBackgroundColor(Color.parseColor("#ebebeb"))
+        cvcalon1.setCardBackgroundColor(Color.parseColor("#ebebeb"))
     }
 
     fun simpanData(calon:String){
