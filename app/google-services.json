@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935157376357",
+    "project_id": "binarpilketos",
+    "storage_bucket": "binarpilketos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935157376357:android:8fa36056c49f0d745b2d8c",
+        "android_client_info": {
+          "package_name": "com.binararis.pilketos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8aKesn3KWJ9DgxCInI5jDIr-CQKdukXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
