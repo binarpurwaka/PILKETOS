@@ -41,7 +41,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:scaleType="centerCrop"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/baseline_person_24"
+                android:background="@drawable/ic_launcher_background" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -73,7 +74,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:scaleType="centerCrop"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/baseline_person_2_24"
+                android:background="@drawable/ic_launcher_background" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -105,7 +107,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:scaleType="centerCrop"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/baseline_person_3_24"
+                android:background="@drawable/ic_launcher_background" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -137,7 +140,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:scaleType="centerCrop"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/baseline_no_accounts_24"
+                android:background="@drawable/ic_launcher_background" />
 
             <TextView
                 android:layout_width="match_parent"
