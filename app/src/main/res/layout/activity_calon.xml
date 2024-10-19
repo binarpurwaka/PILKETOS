@@ -41,7 +41,6 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/ivCalon1"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
@@ -74,7 +73,6 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/ivCalon2"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
@@ -92,7 +90,6 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvCalon3"
-            android:backgroundTint="?attr/cardBackgroundColor"
             android:layout_width="0dp"
             android:layout_height="250dp"
             android:layout_marginStart="5dp"
@@ -108,7 +105,6 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/ivCalon3"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
@@ -141,7 +137,6 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/ivGolput"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"

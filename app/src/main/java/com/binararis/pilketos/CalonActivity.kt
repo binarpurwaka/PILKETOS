@@ -94,19 +94,19 @@ class CalonActivity : AppCompatActivity() {
         cvgolput=findViewById(R.id.cvGolput)
         btPilih=findViewById(R.id.btSimpan)
         btPilih.visibility = View.INVISIBLE
-        ivcalon1=findViewById(R.id.ivCalon1)
-        ivcalon2=findViewById(R.id.ivCalon2)
-        ivcalon3=findViewById(R.id.ivCalon3)
-        ivgolput=findViewById(R.id.ivGolput)
-        //set foto
-        ivcalon1.setImageResource(R.drawable.ic_launcher_foreground)
-        ivcalon1.setBackgroundResource(R.drawable.ic_launcher_background)
-        ivcalon2.setImageResource(R.drawable.ic_launcher_foreground)
-        ivcalon2.setBackgroundResource(R.drawable.ic_launcher_background)
-        ivcalon3.setImageResource(R.drawable.ic_launcher_foreground)
-        ivcalon3.setBackgroundResource(R.drawable.ic_launcher_background)
-        ivgolput.setImageResource(R.drawable.ic_launcher_foreground)
-        ivgolput.setBackgroundResource(R.drawable.ic_launcher_background)
+//        ivcalon1=findViewById(R.id.ivCalon1)
+//        ivcalon2=findViewById(R.id.ivCalon2)
+//        ivcalon3=findViewById(R.id.ivCalon3)
+//        ivgolput=findViewById(R.id.ivGolput)
+////        set foto
+//        ivcalon1.setImageResource(R.drawable.ic_launcher_foreground)
+//        ivcalon1.setBackgroundResource(R.drawable.ic_launcher_background)
+//        ivcalon2.setImageResource(R.drawable.ic_launcher_foreground)
+//        ivcalon2.setBackgroundResource(R.drawable.ic_launcher_background)
+//        ivcalon3.setImageResource(R.drawable.ic_launcher_foreground)
+//        ivcalon3.setBackgroundResource(R.drawable.ic_launcher_background)
+//        ivgolput.setImageResource(R.drawable.ic_launcher_foreground)
+//        ivgolput.setBackgroundResource(R.drawable.ic_launcher_background)
         //
     }
 
